@@ -52,16 +52,16 @@ Features:
 - Menu with food images, descriptions, prices, and “Choose” buttons.
 - Reservation form for name, email, date, time, and number of guests.
 - Cream and brown colour scheme.
-Technologies: HTML, CSS, JavaScript
+Technologies: HTML, CSS, 
 
 Summary: The website provides a user-friendly way for customers to explore menu items and submit reservation requests.
 Requirements
 - A web browser to view the websites.
-- A code editor to edit HTML, CSS, and JavaScript.
-- The HTML, CSS, JavaScript, and image files used by each project.
+- A code editor to edit HTML, CSS.
+- The HTML, CSS, and image files used by each project.
 How to Run
 1. Locate the main HTML file for the website.
-2. Keep linked CSS, JavaScript, and image files in their expected locations.
+2. Keep linked CSS and image files in their expected locations.
 3. Open the HTML file in a web browser, or use a local development server if required.
 4. Navigate through the sections and test the interface elements.
 Notes
