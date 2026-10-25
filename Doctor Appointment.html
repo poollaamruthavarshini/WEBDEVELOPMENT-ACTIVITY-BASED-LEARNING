@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MediCare Clinic | Doctor Appointment</title>
+
+  <link rel="stylesheet" href="Doctor Appointment.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        Medi<span>Care</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#appointment">Appointment</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+
+        <div class="hero-text">
+          <p class="eyebrow">Trusted Healthcare Professionals</p>
+
+          <h1>
+            Your Health,
+            <span>Our Priority</span>
+          </h1>
+
+          <p>
+            Get quality healthcare from experienced doctors.
+            Book your appointment easily and take the first step
+            towards a healthier life.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#appointment" class="btn primary-btn">
+              Book an Appointment
+            </a>
+
+            <a href="#doctors" class="btn secondary-btn">
+              Meet Our Doctors
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="medical-symbol">+</div>
+          <h2>Professional Care</h2>
+          <p>Compassionate healthcare for every patient.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Our Services</p>
+        <h2>Healthcare You Can Trust</h2>
+        <p>
+          We provide reliable medical services with experienced
+          healthcare professionals.
+        </p>
+      </div>
+
+      <div class="service-container">
+
+        <div class="service-card">
+          <div class="service-icon">✚</div>
+          <h3>General Medicine</h3>
+          <p>
+            Medical consultation, diagnosis and treatment for common
+            health concerns.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">☼</div>
+          <h3>Dental Care</h3>
+          <p>
+            Professional dental checkups and treatments for healthy
+            teeth and gums.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">♡</div>
+          <h3>Cardiology</h3>
+          <p>
+            Heart health consultation and preventive cardiac care.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">⌁</div>
+          <h3>Pediatrics</h3>
+          <p>
+            Caring medical support for children and young patients.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="section doctors-section">
+      <div class="section-heading">
+        <p class="eyebrow">Our Doctors</p>
+        <h2>Meet Our Specialists</h2>
+        <p>
+          Consult with qualified professionals who care about your health.
+        </p>
+      </div>
+
+      <div class="doctor-container">
+
+        <!-- Doctor 1 -->
+        <div class="doctor-card">
+          <img
+            src="nanna doctor.jpeg"
+            alt="Dr.Rama Krishna"
+          >
+
+          <div class="doctor-info">
+            <h3>Dr.Rama Krishna</h3>
+            <p class="speciality">General Physician</p>
+            <p>Available: Monday - Friday</p>
+            <a href="#appointment" class="small-btn">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Doctor 2 -->
+        <div class="doctor-card">
+          <img
+            src="amma doctor.jpeg"
+            alt="Dr. Sandhya Sagari"
+          >
+
+          <div class="doctor-info">
+            <h3>Dr. Sandhya Sagari</h3>
+            <p class="speciality">Cardiologist</p>
+            <p>Available: Tuesday - Saturday</p>
+            <a href="#appointment" class="small-btn">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Doctor 3 -->
+        <div class="doctor-card">
+          <img
+            src="ammu doctor.jpeg" width="200" heigth="200"
+            alt="Dr.Amrutha Varshini"
+          >
+
+          <div class="doctor-info">
+            <h3>Dr.Amrutha Varshini</h3>
+            <p class="speciality">Pediatrician</p>
+            <p>Available: Monday - Thursday</p>
+            <a href="#appointment" class="small-btn">Book Now</a>
+          </div>
+        </div>
+
+        <!-- Doctor 4 -->
+        <div class="doctor-card">
+          <img
+            src="sis doctor.jpeg" 
+            alt="Dr. Anu Priya"
+          >
+
+          <div class="doctor-info">
+            <h3>Dr. Anu Priya</h3>
+            <p class="speciality">Dermatologist</p>
+            <p>Available: Wednesday - Sunday</p>
+            <a href="#appointment" class="small-btn">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="section appointment-section">
+      <div class="appointment-wrapper">
+
+        <div class="appointment-intro">
+          <p class="eyebrow">Book Your Visit</p>
+
+          <h2>Schedule an Appointment</h2>
+
+          <p>
+            Fill in the form and our clinic team will contact you
+            to confirm your appointment.
+          </p>
+
+          <div class="clinic-hours">
+            <h3>Clinic Hours</h3>
+            <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+            <p>Sunday: Emergency Services Only</p>
+          </div>
+        </div>
+
+        <form class="appointment-form">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Patient Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+                required
+              >
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="doctor">Select Doctor</label>
+              <select id="doctor" required>
+                <option value="">Choose a doctor</option>
+                <option>Dr. Ananya Rao</option>
+                <option>Dr. Rahul Sharma</option>
+                <option>Dr. Meera Joseph</option>
+                <option>Dr. Priya Nair</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Appointment Date</label>
+              <input type="date" id="date" required>
+            </div>
+
+            <div class="form-group">
+              <label for="time">Preferred Time</label>
+              <select id="time" required>
+                <option value="">Choose a time</option>
+                <option>9:00 AM - 12:00 PM</option>
+                <option>12:00 PM - 3:00 PM</option>
+                <option>3:00 PM - 6:00 PM</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Reason for Visit</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Briefly describe your concern"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn">
+            Request Appointment
+          </button>
+
+          <p class="form-note">
+            Your information will be used only for appointment communication.
+          </p>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="about-content">
+
+        <div>
+          <p class="eyebrow">Why Choose Us</p>
+
+          <h2>Compassionate Care for Every Patient</h2>
+
+          <p>
+            MediCare Clinic combines experienced doctors, modern facilities
+            and a patient-first approach to make healthcare comfortable
+            and accessible.
+          </p>
+
+          <div class="about-points">
+            <p>✓ Experienced medical professionals</p>
+            <p>✓ Clean and comfortable facilities</p>
+            <p>✓ Easy appointment scheduling</p>
+            <p>✓ Personalized patient support</p>
+          </div>
+        </div>
+
+        <div class="about-stat">
+          <strong>24/7</strong>
+          <h3>Here When You Need Us</h3>
+          <p>
+            Contact our clinic for appointment information and support.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact Us</p>
+        <h2>We Are Here to Help</h2>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-card">
+          <span>☎</span>
+          <h3>Phone</h3>
+          <p>+91 98765 43210</p>
+        </div>
+
+        <div class="contact-card">
+          <span>✉</span>
+          <h3>Email</h3>
+          <p>info@medicareclinic.com</p>
+        </div>
+
+        <div class="contact-card">
+          <span>⌖</span>
+          <h3>Address</h3>
+          <p>City Centre, Hyderabad, India</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h2>Medi<span>Care</span></h2>
+        <p>Professional healthcare with a personal touch.</p>
+      </div>
+
+      <p>© 2026 MediCare Clinic. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
