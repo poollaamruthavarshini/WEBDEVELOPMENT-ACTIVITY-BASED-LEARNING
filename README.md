@@ -19,7 +19,7 @@ Sections:
 - College Tour
 - Celebrations
 - Contact Us
-Technologies: HTML, CSS, JavaScript
+Technologies: HTML, CSS
 
 Summary: The website brings together college details, academic programs, facilities, placement information, and campus activities.
 2. Doctor Appointment Website — Case 12
